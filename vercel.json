@@ -1,0 +1,10 @@
+﻿{
+  "version": 2,
+  "builds": [
+    { "src": "ayurveda-landing/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/ayurveda-landing/index.html" },
+    { "src": "/(.*)", "dest": "/ayurveda-landing/$1" }
+  ]
+}
