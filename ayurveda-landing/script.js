@@ -120,7 +120,7 @@
   var modal = document.getElementById('imageModal');
   if (!openBtn || !modal) return;
   var modalImg = document.getElementById('modalImage');
-  var brochureSrc = '../public/pic1.jpg';
+  var brochureSrc = 'pic1.jpg';
 
   function openModal(e) {
     if (e) e.preventDefault();
