@@ -1,0 +1,6 @@
+/* App root and global theme helpers for the hero page */
+.app-root {
+  min-height: 100vh;
+  background: radial-gradient(1200px 500px at 50% 30%, rgba(255,255,255,0.08), rgba(10,10,10,0)) , #0a0a0a;
+  color: #f1f1f1;
+}

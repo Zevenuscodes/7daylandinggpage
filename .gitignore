@@ -1,0 +1,26 @@
+﻿# Dependencies
+node_modules/
+
+# Build outputs
+/dist/
+/build/
+/.vite/
+*.log
+
+# Env
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/Tooling
+.vscode/
+.idea/
+*.swp
+
+# Misc
+coverage/
+*.local
